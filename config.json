@@ -1,0 +1,157 @@
+{
+  "version": 1.0,
+  "title": "Assignment 0: Tools and Cout",
+  "quiz": [
+    {
+      "question": "What piece of punctuation must be put at the end of almost every line?",
+      "options": [
+        {
+          "value": "`!`",
+          "answer": false,
+          "explanation": "Not quite, but I appreciate your enthusiasm."
+        },
+        {
+          "value": "`;`",
+          "answer": true,
+          "explanation": "Correct! A semicolon is put at the end of almost every line of code. All the other punctuations have other meanings we'll discuss soon!"
+        },
+        {
+          "value": "`)`",
+          "answer": false,
+          "explanation": ""
+        },
+        {
+          "value": "`.`",
+          "answer": false,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "question": "Is code case sensitive?",
+      "options": [
+        {
+          "value": "Yes",
+          "answer": true,
+          "explanation": "Correct! It is a very common thing to have small typos when writing code. Sometimes, your typos will be just that the case is wrong."
+        },
+        {
+          "value": "No",
+          "answer": false,
+          "explanation": "Even though computers are really smart, they take things very literally."
+        }
+      ]
+    },
+    {
+      "question": "Which line of code will result in a new line being printed to the console?",
+      "options": [
+        {
+          "value": "`endl;`",
+          "answer": false,
+          "explanation": "This line of code represents a new line, but it doesn't do any printing."
+        },
+        {
+          "value": "`cout << \"endl\";`",
+          "answer": false,
+          "explanation": "This line of code will just print out `endl` to the console."
+        },
+        {
+          "value": "`cout << endl;`",
+          "answer": true,
+          "explanation": "Correct! This line will print out a new line printed out to the console."
+        },
+        {
+          "value": "`cout << newline;`",
+          "answer": false,
+          "explanation": "This line is attempting to print something, but `newline` doesn't mean anything in C++ so this will be a syntax error."
+        }
+      ]
+    },
+    {
+      "question": "Which line of code will result in `Hello World!` being printed out to the console?",
+      "options": [
+        {
+          "value": "`cout << Hello World!;`",
+          "answer": false,
+          "explanation": "Remember, to print out specific words we need to use double quotes (`\"`)."
+        },
+        {
+          "value": "`Cout << \"Hello World!\";`",
+          "answer": false,
+          "explanation": "Almost, code is case sensitive."
+        },
+        {
+          "value": "`cout << 'Hello World!';`",
+          "answer": false,
+          "explanation": "Almost, to print out specific words you need to surround what you want to output with double quotes (`\"`)."
+        },
+        {
+          "value": "`cout << \"Hello World!\";`",
+          "answer": true,
+          "explanation": "Correct! This line of code will print `Hello World!` to the console."
+        }
+      ]
+    }
+  ],
+  "fix_code": [
+    {
+      "question": "This code isn't formatted correctly! Can you help fix it?",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "It is important that your code be properly formated. An important part of that is putting spaces in expressions."
+        },
+        {
+          "line_number": 6,
+          "hint": "It is almost always true that each line should only contain a single piece of code."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't compiling correctly! Can you help fix it? Be sure to also address any formatting errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "To declare a `string` you must use double quotes."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't compiling correctly! Can you help fix it? Be sure to also address any formatting errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "There should be a semicolon (`;`) the end of almost every line in C++."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't compiling correctly! Can you help fix it? Be sure to also address any formatting errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "In C++, even small syntax changes can cause your program to fail. In this case, you should be careful which direction your arrows are pointing."
+        }
+      ]
+    },
+    {
+      "question": "This code isn't running correctly! Can you help fix it? Be sure to also address any formatting or syntax errors.",
+      "hints": [
+        {
+          "line_number": 6,
+          "hint": "Make sure that all components are filled in before code is submitted."
+        }
+      ]
+    }
+  ],
+  "invent_code": [
+    {
+      "question": "Write out 3 sentences describing a bit about yourself. Each sentence should be on its own line.",
+      "hints": []
+    },
+    {
+      "question": "Write out 3 sentences describing a bit about yourself. The output should all be printed out on a single line.",
+      "hints": []
+    }
+  ]
+}
