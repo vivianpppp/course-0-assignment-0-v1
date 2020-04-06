@@ -3,5 +3,6 @@
 using namespace std;
 
 int main() {
-  // Write code here.
+  cout << "I love hot cheetos. My favorite animal is dogs. I'm excited to learn about coding!";
+  cout << endl;
 }
